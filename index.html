@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSU! Now Playing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script type="module" src="app.js"></script>
+    <div id="np-spotify">
+        <div class="mode-indicator taiko"></div>
+        <div class="mode-indicator mania"></div>
+        <!-- Album Art Square -->
+        <div class="album-art"></div>
+        
+        <!-- Background for Blur Effect -->
+        <div class="album-art-blur"></div>
+        <div class="map-title2"></div>
+        
+        <!-- Separated Content Blocks -->
+        <div class="text-block song-info">
+            <div class="content-overlay">
+                <div class="song-header">
+                    <div class="map-title">Song Title</div>
+                </div>
+                <div class="map-artist">Artist</div>
+                <div class="map-details">
+                    <span class="map-creator">Mapped by Creator</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-block progress-info">
+            <div class="content-overlay">
+                <div class="progress-track">
+                    <div class="time-display">
+                        <span class="time-current">0:00</span>
+                        <span class="time-total">0:00</span>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 30%">
+                            <div class="progress-handle"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="player-controls">
+                    <button class="control-button">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button class="control-button">
+                        <i class="fas fa-step-backward"></i>
+                    </button>
+                    <button class="control-button play-button">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button class="control-button">
+                        <i class="fas fa-step-forward"></i>
+                    </button>
+                    <button class="control-button">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+                
+                <div class="pp-container">
+                    <div class="pp-display">
+                        <span class="pp-label">NOW:</span>
+                        <span class="pp-value">0pp</span>
+                    </div>
+                    <div class="pp-display fc">
+                        <span class="pp-label">FC:</span>
+                        <span class="pp-value">0pp</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

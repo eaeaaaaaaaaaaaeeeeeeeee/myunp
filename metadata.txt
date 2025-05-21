@@ -1,0 +1,6 @@
+Usecase: obs-overlay
+Name: spotifynp
+Author: m.d
+CompatibleWith: tosu
+Resolution: 900 x 300
+authorlinks: https://github.com/eaeaaaaaaaaaaaeeeeeeeee
